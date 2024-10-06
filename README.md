@@ -2,8 +2,7 @@
 Simple HTML/CSS based CV layout
 
 Just a few styled classes that are useful for CVs in general:
-- A page with a grid layout, to contain sections (containers)
-- Secion containers, to contain multiple sections in one grid cell
+- A page with a grid layout, to contain sections
 - Sections with a title, to contain items
 - Items with a title and subtitle, to contain subitems
 - Several types of subitems: text, grades, links with icons
