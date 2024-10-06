@@ -1,5 +1,4 @@
-# Web-CV
-Simple HTML/CSS based CV layout
+# Web-CV: Simple HTML/CSS based CV layout
 
 Just a few styled classes that are useful for CVs in general:
 - A page with a grid layout, to contain sections
