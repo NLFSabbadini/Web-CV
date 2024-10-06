@@ -1,5 +1,5 @@
 # Web CV: Simple HTML/CSS based CV layouts
-[test](nlfsabbadini.github.io/Web-CV](https://nlfsabbadini.github.io/Web-CV/)
+[test](https://nlfsabbadini.github.io/Web-CV/)
 
 Just a few styled classes that are useful for CVs in general:
 - A page with a grid layout, to contain sections
