@@ -1,5 +1,4 @@
 # Web CV: Simple HTML/CSS based CV layouts
-[test](https://nlfsabbadini.github.io/Web-CV/)
 
 Just a few styled classes that are useful for CVs in general:
 - A page with a grid layout, to contain sections
@@ -14,3 +13,5 @@ The styling of these classes is based on the following CSS variables, so that th
 - Whitespace: section-break, item-break, subitem-break
 
 The print settings are modified in CSS so that only the page element is printed with no extra margins
+
+[Click to render my current CV!](https://nlfsabbadini.github.io/Web-CV/)
