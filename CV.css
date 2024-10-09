@@ -1,3 +1,27 @@
+@media print {
+	@page {
+		size: auto;
+		margin: 0;
+	}
+
+    body * {
+        visibility: hidden;
+    }
+
+    div.page, div.page * {
+        visibility: visible;
+    }
+
+    img.print-button {
+        display: none;
+    }
+}
+
+@font-face {
+	font-family: 'Cantarell';
+	src: local('Cantarell Regular'), url('fonts/cantarell/Cantarell-Regular.woff') format('woff');
+}
+
 body {
 	background-color: gray;
 
@@ -5,7 +29,7 @@ body {
 	--accent-color: #2F5496;
 	--background-color: white;
 
-	--font: Arial;
+	--font: 'Cantarell';
 	--huge-font-size: 24pt;
 	--large-font-size: 18pt;
 	--normal-font-size: 12pt;
@@ -142,23 +166,4 @@ div.grade {
 	display: grid;
 	height: fit-content;
 	grid-template-columns: 2.5cm auto;
-}
-
-@media print {
-	@page {
-		size: auto;
-		margin: 0;
-	}
-
-    body * {
-        visibility: hidden;
-    }
-
-    div.page, div.page * {
-        visibility: visible;
-    }
-
-    img.print-button {
-        display: none;
-    }
 }
