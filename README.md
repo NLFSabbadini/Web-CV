@@ -9,9 +9,9 @@ Just a few styled classes that are useful for CVs in general:
 The styling of these classes is based on the following CSS variables, so that the look can easily be modified:
 - Colors: background-color, normal-color, accent-color
 - Font: font, huge-font-size, large-font-size, normal-font-size, accent-font-weight, accent-font-style
-- Page: page-margins, row-break, column-break, column-width-1, column-width-2
-- Whitespace: section-break, item-break, subitem-break
+- Page: column-width-1, column-width-2, min-page-margins, page-aspect-ratio
+- Whitespace: row-break, column-break, section-break, item-break, subitem-break
 
-The print settings are modified in CSS so that only the page element is printed with no extra margins
+All sizes are denoted in 'em' units for consistency with respect to the font. The margin.js script computes appropriate padddings so that the desired min-page-margins and the page-aspect-ratio are respected, which is important for printing to single standard sized pages. The print settings are modified in CSS to print only the single page at full scale.
 
 [Click to render my current CV!](https://nlfsabbadini.github.io/Web-CV/)
