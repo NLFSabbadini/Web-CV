@@ -8,12 +8,8 @@
         visibility: hidden;
     }
 
-    div.page, div.page * {
+    #page, #page * {
         visibility: visible;
-    }
-
-    img.print-button {
-        display: none;
     }
 }
 
@@ -29,29 +25,31 @@ body {
 	--accent-color: #2F5496;
 	--background-color: white;
 
-	--font: 'C';
-	--huge-font-size: 24pt;
-	--large-font-size: 18pt;
-	--normal-font-size: 12pt;
+	--font: 'Cantarell';
+	--huge-font-size: 2em;
+	--large-font-size: 1.5em;
+	--normal-font-size: 1em;
 	--accent-font-weight: bold;
 	--accent-font-style: oblique;
 
-	--page-margins: 1cm;
-	--row-break: 1cm;
-	--column-break: 1cm;
-	--column-width-1: 8cm;
-	--column-width-2: 12cm;
-	--section-break: 1cm;
-	--item-break: 0.25cm;
-	--subitem-break: 0.125cm;
+	--page-aspect-ratio: 0.70711;
+	--column-width-1: 20em;
+	--column-width-2: 30em;
+	--min-page-margins: 2em;
+	
+	--row-break: 2em;
+	--column-break: 2em;
+	--section-break: 2em;
+	--item-break: 0.5em;
+	--subitem-break: 0.25em;
 }
 
-div.page {
+#page {
 	background-color: var(--background-color);
 	
 	width: fit-content;
 	height: fit-content;
-	padding: var(--page-margins);
+	padding: var(--min-page-margins);
 	
 	display: grid;
 	grid-template-columns: var(--column-width-1) var(--column-width-2);
